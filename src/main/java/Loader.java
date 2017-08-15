@@ -3,7 +3,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Loader {
-    private static final Storage ARRAY_STORAGE = new ResumeStorage();
+    //private static final Storage ARRAY_STORAGE = new ResumeStorage();
+    private static final Storage ARRAY_STORAGE = new SortedResumeStorage();
     public static void main(String[] args) throws IOException, IOException {
         // write your code here
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
