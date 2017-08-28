@@ -17,9 +17,6 @@ public class Resume  implements  Comparable<Resume>{
         return uuid.hashCode();
     }
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
 
     @Override
     public String toString() {
