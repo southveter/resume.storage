@@ -1,3 +1,5 @@
+package model;
+
 public class ResumeStorage implements Storage{
     private Resume[] storage = new Resume[10000];
     private int size = 0;

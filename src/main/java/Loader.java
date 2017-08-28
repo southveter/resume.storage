@@ -1,3 +1,7 @@
+import model.Resume;
+import model.SortedResumeStorage;
+import model.Storage;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
