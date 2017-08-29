@@ -3,6 +3,8 @@ package model;
 import exception.*;
 import org.junit.Assert;
 import org.junit.Test;
+import storage.AbstractArrayStorage;
+import storage.Storage;
 
 public abstract class AbstractArrayStorageTest extends AbstractStorageTest {
     protected AbstractArrayStorageTest(Storage storage) {

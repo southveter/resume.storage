@@ -1,4 +1,6 @@
-package model;
+package storage;
+
+import model.Resume;
 
 public class ResumeStorage extends AbstractArrayStorage{
     @Override

@@ -2,10 +2,9 @@ package model;
 
 import exception.ExistStorageException;
 import exception.NotExistStorageException;
-import exception.StorageException;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import storage.Storage;
 
 import java.util.Arrays;
 import java.util.List;
