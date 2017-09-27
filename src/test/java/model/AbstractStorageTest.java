@@ -16,6 +16,7 @@ import static org.junit.Assert.assertTrue;
 
 public abstract class AbstractStorageTest {
     protected static final File STORAGE_DIR = new File("D:\\Java\\Stas\\JavaCore2017January\\resume.storage\\src\\main\\resources\\storage");
+   // protected static final File STORAGE_DIR = Config.get().
     protected Storage storage;
 
     private static final String UUID_1 = "uuid1";
